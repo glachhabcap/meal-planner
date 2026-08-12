@@ -1,0 +1,60 @@
+{
+  "templates": [
+    {
+      "name": "velouté de légumes",
+      "category": "entree",
+      "ingredients": ["carotte", "courgette", "oignon", "poireau"],
+      "difficulty": "facile",
+      "tags": ["saison", "végétarien"]
+    },
+    {
+      "name": "salade de quinoa",
+      "category": "entree",
+      "ingredients": ["quinoa", "tomate", "courgette", "persil"],
+      "difficulty": "facile",
+      "tags": ["végétarien", "sans lactose"]
+    },
+    {
+      "name": "plat végétarien aux légumes rôtis",
+      "category": "plat",
+      "ingredients": ["quinoa", "courgette", "aubergine", "poivron"],
+      "difficulty": "moyen",
+      "tags": ["végétarien", "saison"]
+    },
+    {
+      "name": "plat halal au poulet et légumes",
+      "category": "plat",
+      "ingredients": ["poulet", "carotte", "poireau", "oignon"],
+      "difficulty": "moyen",
+      "tags": ["halal", "confort"]
+    },
+    {
+      "name": "poisson au four avec légumes",
+      "category": "plat",
+      "ingredients": ["poisson", "courgette", "carotte", "citron"],
+      "difficulty": "moyen",
+      "tags": ["sans gluten", "léger"]
+    },
+    {
+      "name": "gratin de pommes de terre",
+      "category": "accompagnement",
+      "ingredients": ["pommes", "lait", "fromage", "oignon"],
+      "difficulty": "moyen",
+      "tags": ["confort", "familial"]
+    },
+    {
+      "name": "dessert aux pommes",
+      "category": "dessert",
+      "ingredients": ["pommes", "oeuf", "lait", "cannelle"],
+      "difficulty": "facile",
+      "tags": ["simple", "familial"]
+    },
+    {
+      "name": "tarte aux fruits",
+      "category": "dessert",
+      "ingredients": ["pommes", "poires", "orange", "pâte"],
+      "difficulty": "moyen",
+      "tags": ["printemps", "familial"]
+    }
+  ]
+}

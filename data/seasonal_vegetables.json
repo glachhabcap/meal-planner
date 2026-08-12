@@ -1,0 +1,53 @@
+{
+  "printemps": [
+    "asperge",
+    "carotte",
+    "courgette",
+    "petit pois",
+    "radis",
+    "poireau",
+    "salade",
+    "epinard"
+  ],
+  "ete": [
+    "courgette",
+    "poivron",
+    "tomate",
+    "aubergine",
+    "haricot vert",
+    "concombre",
+    "melon",
+    "basilic"
+  ],
+  "automne": [
+    "potiron",
+    "betterave",
+    "chou",
+    "poireau",
+    "carotte",
+    "champignon",
+    "navet",
+    "celeri"
+  ],
+  "hiver": [
+    "navet",
+    "chou",
+    "poireau",
+    "carotte",
+    "celeri",
+    "salsifis",
+    "rutabaga",
+    "topinambour"
+  ],
+  "general": [
+    "carotte",
+    "courgette",
+    "oignon",
+    "poireau",
+    "tomate",
+    "poivron",
+    "aubergine",
+    "chou",
+    "celeri"
+  ]
+}

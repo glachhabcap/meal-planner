@@ -1,0 +1,45 @@
+ingredient,unit,price_eur,category
+carotte,kg,2.10,legume
+courgette,kg,2.60,legume
+poireau,kg,2.40,legume
+oignon,kg,1.80,legume
+tomate,kg,3.20,legume
+poivron,kg,3.80,legume
+aubergine,kg,3.20,legume
+asperge,kg,5.50,legume
+petit pois,kg,4.20,legume
+radis,kg,2.90,legume
+potiron,kg,2.50,legume
+betterave,kg,2.30,legume
+navet,kg,2.10,legume
+chou,kg,1.90,legume
+celeri,kg,2.80,legume
+haricot vert,kg,4.30,legume
+quinoa,kg,6.50,grain
+riz,kg,2.20,grain
+lentilles,kg,3.00,legume_sec
+pois chiches,kg,3.50,legume_sec
+poulet,kg,9.50,viande
+dinde,kg,8.80,viande
+poisson,kg,12.00,poisson
+saumon,kg,14.50,poisson
+tofu,kg,4.50,vegetal
+fromage,kg,7.00,laitier
+lait,litre,1.80,laitier
+yaourt,kg,3.20,laitier
+beurre,kg,6.50,laitier
+oeuf,unite,0.30,oeuf
+pommes,kg,2.10,fruit
+poires,kg,2.60,fruit
+orange,kg,2.20,fruit
+banane,kg,1.90,fruit
+huile,litre,5.50,condiment
+beurre de cacahuete,jar,3.40,condiment
+herbes,botte,1.40,aromate
+persil,botte,1.20,aromate
+coriandre,botte,1.30,aromate
+citron,kg,2.80,fruit
+pain,baguette,1.10,grain
+agrumes,kg,2.50,fruit
+gruyere,kg,8.50,laitier
+ble,kg,2.00,grain
