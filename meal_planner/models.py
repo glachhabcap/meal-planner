@@ -94,7 +94,16 @@ class ShoppingResult(BaseModel):
     items: List[ShoppingItem]
     total_estimated_eur: float
     budget_ok: bool
+    budget_remaining_eur: float = 0.0
+    budget_used_pct: float = 0.0
+    product_most_expensive: str = ""
+    product_least_expensive: str = ""
+    article_count: int = 0
+    average_price_eur: float = 0.0
     recommended_alternatives: List[str] = Field(default_factory=list)
+    status_icon: str = "🟢"
+    status_label: str = "Budget respecté"
+    status_color: str = "green"
 
 
 class PlanningStep(BaseModel):
