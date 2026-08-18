@@ -42,6 +42,7 @@ class Ingredient(BaseModel):
     note: Optional[str] = None
 
 
+
 class RecipeStep(BaseModel):
     """Étape de préparation d'une recette."""
 
@@ -62,12 +63,22 @@ class Recipe(BaseModel):
 
     name: str
     category: str
+    description: Optional[str] = None
+    image_url: Optional[str] = None
+    portions: int = 1
+    advice: Optional[str] = None
+    calories_kcal: Optional[int] = None
+    proteins_g: Optional[int] = None
+    carbs_g: Optional[int] = None
+    lipids_g: Optional[int] = None
     ingredients: List[Ingredient]
     steps: List[RecipeStep]
     prep_time_minutes: int
     cook_time_minutes: int
+    total_time_minutes: Optional[int] = None
     equipment: List[str]
     difficulty: str
+    beginner_friendly: bool = False
     variants: List[RecipeVariant] = Field(default_factory=list)
 
 
