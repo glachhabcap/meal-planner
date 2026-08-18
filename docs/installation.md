@@ -86,12 +86,14 @@ python -m venv .venv
 .venv\Scripts\activate.bat
 ```
 
-### 5.3 Sur Git Bash / Linux / Mac
+### 5.3 Sur Git Bash / bash Windows
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/Scripts/activate
 ```
+
+> Sur Windows, le dossier du virtualenv est `Scripts`, pas `bin`.
 
 Quand l'environnement est activé, votre prompt de terminal doit afficher quelque chose comme :
 
@@ -126,14 +128,16 @@ Les dépendances principales sont :
 
 ```bash
 python --version
-pip list
+python -m pip list
 ```
 
 Vous pouvez aussi vérifier que le projet est bien chargé :
 
 ```bash
-pytest
+python -m pytest
 ```
+
+> La commande `python -m ...` est importante : elle force l’utilisation du bon interpréteur Python du projet.
 
 ---
 
@@ -142,19 +146,19 @@ pytest
 Pour vérifier que le projet est cohérent :
 
 ```bash
-pytest
+python -m pytest
 ```
 
 Pour lancer un test précis :
 
 ```bash
-pytest tests/test_menu_agent.py
+python -m pytest tests/test_menu_agent.py
 ```
 
 Si vous voulez voir les détails pendant les tests :
 
 ```bash
-pytest -q
+python -m pytest -q
 ```
 
 ---
@@ -200,14 +204,14 @@ pytest
 python -m streamlit run meal_planner/ui/app.py
 ```
 
-### Git Bash / Linux / Mac
+### Git Bash / bash Windows
 
 ```bash
 cd "/c/Users/ton_nom/OneDrive - Capgemini/Desktop/Project_Meal_Planner_Agents"
 python -m venv .venv
-source .venv/bin/activate
+source .venv/Scripts/activate
 python -m pip install -r requirements.txt
-pytest
+python -m pytest
 python -m streamlit run meal_planner/ui/app.py
 ```
 
